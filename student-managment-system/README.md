@@ -1,21 +1,27 @@
 Student Management System
+
 A simple Student Management System built with Python and MySQL.
+
 The system allows users to manage student records through a command-line interface.
+
 Features
-View all students
-Add a new student
-Search for a student
-Update student information
-Delete a student
-Store student data in a MySQL database
-Use environment variables to protect database credentials
+
+View Students
+Add Student
+Search Student
+Update Student
+Delete Student
+Exit the application
+
 Technologies Used
+
 Python
 MySQL
 MySQL Workbench
 mysql-connector-python
 python-dotenv
 Git & GitHub
+
 Database
 The project uses a MySQL database named:
 student_management
@@ -38,16 +44,25 @@ grade
 Project Structure
 student-management-system/
 │
-├── main.py
-├── database.py
-├── student_operations.py
-├── database.sql
-├── queries.sql
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── .env
+
+── main.py
+
+── database.py
+
+── student_operations.py
+
+── database.sql
+
+── queries.sql
+
+── requirements.txt
+
+── README.md
+
+└── .gitignore
+
 The .env file contains private database credentials and should not be uploaded to GitHub.
+
 Setup
 1. Clone the repository
 git clone <your-repository-url>
